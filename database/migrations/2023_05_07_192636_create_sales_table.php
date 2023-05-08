@@ -20,7 +20,6 @@ class CreateSalesTable extends Migration
             $table->string("nombre_producto");
             $table->string("precio");
             $table->date("fecha_compra");
-            $table->date("fecha_compra");
             $table->timestamps();
         });
     }
